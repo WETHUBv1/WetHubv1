@@ -1,3 +1,4 @@
+ 
 function CheckQuest()
     local Lv = game:GetService("Players").LocalPlayer.Data.Level.Value
         if Lv == 1 or Lv <= 9 then
