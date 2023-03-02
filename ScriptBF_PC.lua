@@ -7,21 +7,21 @@ function CheckQuest()
             NameQuest = "BanditQuest1"
             CFrameMon = CFrame.new(1038.2711181640625, 24.537282943725586, 1550.2586669921875)
             CFrameQuest = CFrame.new(1059.8109130859375, 16.362747192382812, 1549.0882568359375)
-        elseif Lv == 10 or Lv <= 14 then
-            Mon = "Monkey [Lv. 14]"
-            NameMon = "Monkey"
-            LvQuest = 1
-            NameQuest = "JungleQuest"
-            CFrameMon = CFrame.new(-1127.8330078125, 40.463863372802734, -528.5481567382812)
-            CFrameQuest = CFrame.new(-1599.8194580078125, 36.852149963378906, 153.0706024169922)
-            elseif Lv == 15 or Lv <= 29 then
-              Mon = "Gorilla [Lv. 20]"
-              NameMon = "Gorilla"
-              LvQuest = 2
-              NameQuest = "JungleQuest"
-              CFrameMon = CFrame.new(-1443.7662353515625, 61.851966857910156, -47.555946350097656)
-              CFrameQuest = CFrame.new(-1599.8194580078125, 36.852149963378906, 153.0706024169922) 
-              elseif Lv == 30 or Lv <= 39 then
+            elseif Lv == 10 or Lv <= 14 then
+                Mon = "Monkey [Lv. 14]"
+                NameMon = "Monkey"
+                LvQuest = 1
+                NameQuest = "JungleQuest"
+                CFrameMon = CFrame.new(-1127.8330078125, 40.463863372802734, -528.5481567382812)
+                CFrameQuest = CFrame.new(-1599.8194580078125, 36.852149963378906, 153.0706024169922)
+                elseif Lv == 15 or Lv <= 29 then
+                    Mon = "Gorilla [Lv. 20]"
+                    NameMon = "Gorilla"
+                    LvQuest = 2
+                    NameQuest = "JungleQuest"
+                    CFrameMon = CFrame.new(-1443.7662353515625, 61.851966857910156, -47.555946350097656)
+                    CFrameQuest = CFrame.new(-1599.8194580078125, 36.852149963378906, 153.0706024169922) 
+                    elseif Lv == 30 or Lv <= 39 then
                 Mon = "Pirate [Lv. 35]"
                 NameMon = "Pirate"
                 LvQuest = 1
@@ -42,7 +42,7 @@ function CheckQuest()
                     NameQuest = "Desert Adventurer"
                     CFrameMon = CFrame.new(1049.02587890625, 50.39576721191406, 4488.47900390625)
                     CFrameQuest = CFrame.new(896.3983154296875, 6.437349796295166, 4391.86376953125)
-                    elseif Lv == 75 ro Lv <= 89 then
+                    elseif Lv == 75 or Lv <= 89 then
                         Mon = "Desert Officer [Lv. 70]]"
                         NameMon = "Desert Officer"
                         LvQuest = 2
@@ -376,7 +376,7 @@ local function CircleAnim(GuiObject, EndColour, StartColour)
     end)
 end
 
-WETLib.Name = WET-Lib"
+WETLib.Name = "WET-Lib"
 WETLib.Parent = game.CoreGui
 WETLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1650,7 +1650,7 @@ local Tab3 = ui:Tab({titel = "Misc" })
 local Page1 = Tab1:Page(1)
 local Page2 = Tab1:Page(2)
 local Page1T2 = Tab2:Page(1)
-local Page1T3 = Tab3:page(1)
+local Page1T3 = Tab3:Page(1)
 --[[desrengoku = "In order to get this Sword, you will have to be on level 1350 or higher. This is because you need to unlock Ice Castle in the Second Sea to get the Rengoku Sword."
 desgotosea2 = "To begin, head to the Prison – an island that sits west of Fountain City. Once there, you'll need to find the Military Detective, an NPC that stands guard at the Prison near the Quest Givers. When you find him, talk to him, and he'll give you a key to the Second Sea."
 local Togle = Page1:Toggle('Auto Rengoku Sword',desrengoku,11960933794,false,function(a)
