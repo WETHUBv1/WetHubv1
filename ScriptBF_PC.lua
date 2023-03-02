@@ -1646,9 +1646,11 @@ end
 local ui = lib:main()
 local Tab1 = ui:Tab({titel = "Main" })
 local Tab2 = ui:Tab({titel = "Stats" })
+local Tab3 = ui:Tab({titel = "Misc" })
 local Page1 = Tab1:Page(1)
 local Page2 = Tab1:Page(2)
 local Page1T2 = Tab2:Page(1)
+local Page1T3 = Tab3:page(1)
 --[[desrengoku = "In order to get this Sword, you will have to be on level 1350 or higher. This is because you need to unlock Ice Castle in the Second Sea to get the Rengoku Sword."
 desgotosea2 = "To begin, head to the Prison – an island that sits west of Fountain City. Once there, you'll need to find the Military Detective, an NPC that stands guard at the Prison near the Quest Givers. When you find him, talk to him, and he'll give you a key to the Second Sea."
 local Togle = Page1:Toggle('Auto Rengoku Sword',desrengoku,11960933794,false,function(a)
@@ -1753,9 +1755,29 @@ local Toggle = Page1T2:Toggle('Auto Blox Fruit','',0,false,function(t)
 end
 end
 )
-local Slider = Page1T2:Slider("Point",true,0,100,20,function(x)
+local Slider = Page1T2:Slider("Point",true,0,100,1,function(x)
     Point = x
 end)
+
+Page1T3:Button("Redeem All Code",'',0,function()
+    function UseCode(Text)
+        game.GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(Text)
+    end
+    UseCode("SUB2GAMERROBOT_EXP1")
+    UseCode("StrawHatMaine")
+	UseCode("Sub2OfficialNoobie")
+	UseCode("FUDD10")
+	UseCode("BIGNEWS")
+	UseCode("THEGREATACE")
+	UseCode("SUB2NOOBMASTER123")
+	UseCode("Sub2Daigrock")
+	UseCode("Axiore")
+	UseCode("TantaiGaming")
+	UseCode("STRAWHATMAINE")
+end
+)
+
+
 
 spawn(function()
     while wait() do
