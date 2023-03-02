@@ -39,7 +39,7 @@ function CheckQuest()
                     Mon = "Desert Bandit [Lv. 60]"
                     NameMon = "Desert Bandit"
                     LvQuest = 1
-                    NameQuest = "Desert Adventurer"
+                    NameQuest = "DesertQuest"
                     CFrameMon = CFrame.new(1049.02587890625, 50.39576721191406, 4488.47900390625)
                     CFrameQuest = CFrame.new(896.3983154296875, 6.437349796295166, 4391.86376953125)
                     elseif Lv == 75 or Lv <= 89 then
