@@ -46,7 +46,7 @@ function CheckQuest()
                         Mon = "Desert Officer [Lv. 70]]"
                         NameMon = "Desert Officer"
                         LvQuest = 2
-                        NameQuest = "Desert Adventurer"
+                        NameQuest = "DesertQuest"
                         CFrameMon = CFrame.new(1578.912353515625, 9.427383422851562, 4373.2890625)
                         CFrameQuest = CFrame.new(896.3983154296875, 6.437349796295166, 4391.86376953125)
                         elseif Lv == 90 or Lv <= 99 then -- Snow Bandits
