@@ -49,7 +49,7 @@ function CheckQuest()
                         NameQuest = "Desert Adventurer"
                         CFrameMon = CFrame.new(1578.912353515625, 9.427383422851562, 4373.2890625)
                         CFrameQuest = CFrame.new(896.3983154296875, 6.437349796295166, 4391.86376953125)
-                        elseif MyLevel == 90 or MyLevel <= 99 then -- Snow Bandits
+                        elseif Lv == 90 or Lv <= 99 then -- Snow Bandits
                             Nonquest = false
                             Mon = "Snow Bandit [Lv. 90]"
                             NameQuest = "SnowQuest"
@@ -57,7 +57,7 @@ function CheckQuest()
                             NameMon = "Snow Bandits"
                             CFrameQuest = CFrame.new(1389.74451, 86.6520844, -1298.90796, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685)
                             CFrameMon = CFrame.new(1412.92346, 55.3503647, -1260.62036, -0.246266365, -0.0169920288, -0.969053388, 0.000432241941, 0.999844253, -0.0176417865, 0.969202161, -0.00476344163, -0.246220857)
-                            elseif MyLevel == 100 or MyLevel <= 119 then -- Snowman
+                            elseif Lv == 100 or Lv <= 119 then -- Snowman
                                 Nonquest = false
                                 Mon = "Snowman [Lv. 100]"
                                 NameQuest = "SnowQuest"
@@ -65,7 +65,7 @@ function CheckQuest()
                                 NameMon = "Snowman"
                                 CFrameQuest = CFrame.new(1389.74451, 86.6520844, -1298.90796, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685)
                                 CFrameMon = CFrame.new(1376.86401, 97.2779999, -1396.93115, -0.986755967, 7.71178321e-08, -0.162211925, 7.71531674e-08, 1, 6.08143536e-09, 0.162211925, -6.51427134e-09, -0.986755967)
-                                elseif MyLevel == 120 or MyLevel <= 149 then -- Chief Petty Officer
+                                elseif Lv == 120 or Lv <= 149 then -- Chief Petty Officer
                                     Nonquest = false
                                     Mon = "Chief Petty Officer [Lv. 120]"
                                     NameQuest = "MarineQuest2"
@@ -73,7 +73,7 @@ function CheckQuest()
                                     NameMon = "Chief Petty Officer"
                                     CFrameQuest = CFrame.new(-5039.58643, 27.3500385, 4324.68018, 0, 0, -1, 0, 1, 0, 1, 0, 0)
                                     CFrameMon = CFrame.new(-4882.8623, 22.6520386, 4255.53516, 0.273695946, -5.40380647e-08, -0.96181643, 4.37720793e-08, 1, -4.37274998e-08, 0.96181643, -3.01326679e-08, 0.273695946)
-                                    elseif MyLevel == 150 or MyLevel <= 174 then -- Sky Bandit
+                                    elseif Lv == 150 or Lv <= 174 then -- Sky Bandit
                                         Nonquest = false
                                         Mon = "Sky Bandit [Lv. 150]"
                                         NameQuest = "SkyQuest"
@@ -81,7 +81,7 @@ function CheckQuest()
                                         NameMon = "Sky Bandit"
                                         CFrameQuest = CFrame.new(-4839.53027, 716.368591, -2619.44165, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
                                         CFrameMon = CFrame.new(-4959.51367, 365.39267, -2974.56812, 0.964867651, 7.74418396e-08, 0.262737453, -6.95931988e-08, 1, -3.91783708e-08, -0.262737453, 1.95171506e-08, 0.964867651)
-                                    elseif MyLevel == 175 or MyLevel <= 189 then -- Dark Master
+                                    elseif Lv == 175 or Lv <= 189 then -- Dark Master
                                         Nonquest = false
                                         Mon = "Dark Master [Lv. 175]"
                                         NameQuest = "SkyQuest"
@@ -89,7 +89,7 @@ function CheckQuest()
                                         NameMon = "Dark Master"
                                         CFrameQuest = CFrame.new(-4839.53027, 716.368591, -2619.44165, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
                                         CFrameMon = CFrame.new(-5079.98096, 376.477356, -2194.17139, 0.465965867, -3.69776352e-08, 0.884802461, 3.40249851e-09, 1, 4.00000886e-08, -0.884802461, -1.56281423e-08, 0.465965867)
-                                        elseif MyLevel == 190 or MyLevel <= 209 then
+                                        elseif Lv == 190 or Lv <= 209 then
                                             Nonquest = false
                                             Mon = "Prisoner [Lv. 190]"
                                             LevMonQuest = 1
@@ -97,7 +97,7 @@ function CheckQuest()
                                             NameMon = "Prisoner"
                                             CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -5.00292918e-09, -0.995993316, 1.60817859e-09, 1, -5.16744869e-09, 0.995993316, -2.06384709e-09, -0.0894274712)
                                             CFrameMon = CFrame.new(5433.39307, 88.678093, 514.986877, 0.879988372, 0, -0.474995494, 0, 1, 0, 0.474995494, 0, 0.879988372)
-                                            elseif MyLevel == 210 or MyLevel <= 249 then
+                                            elseif Lv == 210 or Lv <= 249 then
                                                 Nonquest = false
                                                 Mon = "Gladiator [Lv. 275]"
                                                 NameQuest = "ColosseumQuest"
@@ -105,7 +105,7 @@ function CheckQuest()
                                                 NameMon = "Gladiato"
                                                 CFrameQuest = CFrame.new(-1576.11743, 7.38933945, -2983.30762, 0.576966345, 1.22114863e-09, 0.816767931, -3.58496594e-10, 1, -1.24185606e-09, -0.816767931, 4.2370063e-10, 0.576966345)
                                                 CFrameMon = CFrame.new(-1274.75903, 58.1895943, -3188.16309, 0.464524001, 6.21005611e-08, 0.885560572, -4.80449414e-09, 1, -6.76054768e-08, -0.885560572, 2.71497012e-08, 0.464524001)
-                                                elseif MyLevel == 300 or MyLevel <= 329 then -- Military Soldier
+                                                elseif Lv == 300 or Lv <= 329 then -- Military Soldier
                                                     Nonquest = false
                                                     Mon = "Military Soldier [Lv. 300]"
                                                     NameQuest = "MagmaQuest"
@@ -113,7 +113,7 @@ function CheckQuest()
                                                     NameMon = "Military Soldier"
                                                     CFrameQuest = CFrame.new(-5316.55859, 12.2370615, 8517.2998, 0.588437557, -1.37880001e-08, -0.808542669, -2.10116209e-08, 1, -3.23446478e-08, 0.808542669, 3.60215964e-08, 0.588437557)
                                                     CFrameMon = CFrame.new(-5363.01123, 41.5056877, 8548.47266, -0.578253984, -3.29503091e-10, 0.815856814, 9.11209668e-08, 1, 6.498761e-08, -0.815856814, 1.11920997e-07, -0.578253984)
-                                                    elseif MyLevel == 330 or MyLevel <= 374 then -- Military Spy
+                                                    elseif Lv == 330 or Lv <= 374 then -- Military Spy
                                                         Nonquest = false
                                                         Mon = "Military Spy [Lv. 325]"
                                                         NameQuest = "MagmaQuest"
@@ -121,7 +121,7 @@ function CheckQuest()
                                                         NameMon = "Military Spy"
                                                         CFrameQuest = CFrame.new(-5316.55859, 12.2370615, 8517.2998, 0.588437557, -1.37880001e-08, -0.808542669, -2.10116209e-08, 1, -3.23446478e-08, 0.808542669, 3.60215964e-08, 0.588437557)
                                                         CFrameMon = CFrame.new(-5787.99023, 120.864456, 8762.25293, -0.188358366, -1.84706277e-08, 0.982100308, -1.23782129e-07, 1, -4.93306951e-09, -0.982100308, -1.22495649e-07, -0.188358366)
-                                                        elseif MyLevel == 375 or MyLevel <= 399 then -- Fishman Warrior
+                                                        elseif Lv == 375 or Lv <= 399 then -- Fishman Warrior
                                                             Nonquest = false
                                                             Mon = "Fishman Warrior [Lv. 375]"
                                                             NameQuest = "FishmanQuest"
@@ -129,7 +129,7 @@ function CheckQuest()
                                                             NameMon = "Fishman Warrior"
                                                             CFrameQuest = CFrame.new(61122.5625, 18.4716396, 1568.16504, 0.893533468, 3.95251609e-09, 0.448996574, -2.34327455e-08, 1, 3.78297464e-08, -0.448996574, -4.43233645e-08, 0.893533468)
                                                             CFrameMon = CFrame.new(60946.6094, 48.6735229, 1525.91687, -0.0817126185, 8.90751153e-08, 0.996655822, 2.00889794e-08, 1, -8.77269599e-08, -0.996655822, 1.28533992e-08, -0.0817126185)
-                                                            elseif MyLevel == 400 or MyLevel <= 449 then -- Fishman Commando
+                                                            elseif Lv == 400 or Lv <= 449 then -- Fishman Commando
                                                                 Nonquest = false
                                                                 Mon = "Fishman Commando [Lv. 400]"
                                                                 NameQuest = "FishmanQuest"
@@ -137,7 +137,7 @@ function CheckQuest()
                                                                 NameMon = "Fishman Commando"
                                                                 CFrameQuest = CFrame.new(61122.5625, 18.4716396, 1568.16504)
                                                                 CFrameMon = CFrame.new(60946.6094, 48.6735229, 1525.916871)
-                                                                elseif MyLevel == 450 or MyLevel <= 474 then 
+                                                                elseif Lv == 450 or Lv <= 474 then 
                                                                     Nonquest = false
                                                                     Mon = "God's Guard [Lv. 450]"
                                                                     NameQuest = "SkyExp1Quest"
@@ -145,7 +145,7 @@ function CheckQuest()
                                                                     NameMon = "God's Guards"
                                                                     CFrameQuest = CFrame.new(-4721.71436, 845.277161, -1954.20105)
                                                                     CFrameMon = CFrame.new(-4716.95703, 853.089722, -1933.925427)
-                                                                    elseif MyLevel == 475 or MyLevel <= 524 then 
+                                                                    elseif Lv == 475 or Lv <= 524 then 
                                                                         Nonquest = false
                                                                         Mon = "Shanda [Lv. 475]"
                                                                         NameQuest = "SkyExp1Quest"
@@ -153,7 +153,7 @@ function CheckQuest()
                                                                         NameMon = "Shandas"
                                                                         CFrameQuest = CFrame.new(-7859.09814, 5544.19043, -381.476196, -0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, -0.422592998)
                                                                         CFrameMon = CFrame.new(-7904.57373, 5584.37646, -459.62973, 0.65171206, 5.11171692e-08, 0.758466363, -4.76232476e-09, 1, -6.33034247e-08, -0.758466363, 3.76435416e-08, 0.65171206)
-                                                                        elseif MyLevel == 525 or MyLevel <= 549 then -- Royal Squad
+                                                                        elseif Lv == 525 or Lv <= 549 then -- Royal Squad
                                                                             Nonquest = false
                                                                             Mon = "Royal Squad [Lv. 525]"
                                                                             NameQuest = "SkyExp2Quest"
@@ -161,7 +161,7 @@ function CheckQuest()
                                                                             NameMon = "Royal Squad"
                                                                             CFrameQuest = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0)
                                                                             CFrameMon = CFrame.new(-7555.04199, 5606.90479, -1303.24744, -0.896107852, -9.6057462e-10, -0.443836004, -4.24974544e-09, 1, 6.41599973e-09, 0.443836004, 7.63560326e-09, -0.896107852)
-                                                                            elseif MyLevel == 550 or MyLevel <= 624 then -- Royal Soldier
+                                                                            elseif Lv == 550 or Lv <= 624 then -- Royal Soldier
                                                                                 Nonquest = false
                                                                                 Mon = "Royal Soldier [Lv. 550]"
                                                                                 NameQuest = "SkyExp2Quest"
@@ -169,7 +169,7 @@ function CheckQuest()
                                                                                 NameMon = "Royal Soldier"
                                                                                 CFrameQuest = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0)
                                                                                 CFrameMon = CFrame.new(-7837.31152, 5649.65186, -1791.08582, -0.716008604, 0.0104285581, -0.698013008, 5.02521061e-06, 0.99988848, 0.0149335321, 0.69809103, 0.0106890313, -0.715928733)
-                                                                                elseif MyLevel == 625 or MyLevel <= 649 then -- Galley Pirate
+                                                                                elseif Lv == 625 or Lv <= 649 then -- Galley Pirate
                                                                                     Nonquest = false
                                                                                     Mon = "Galley Pirate [Lv. 625]"
                                                                                     NameQuest = "FountainQuest"
@@ -177,7 +177,7 @@ function CheckQuest()
                                                                                     NameMon = "Galley Pirate"
                                                                                     CFrameQuest = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381)
                                                                                     CFrameMon = CFrame.new(5569.80518, 38.5269432, 3849.01196, 0.896460414, 3.98027495e-08, 0.443124533, -1.34262139e-08, 1, -6.26611296e-08, -0.443124533, 5.02237434e-08, 0.896460414)
-                                                                                    elseif MyLevel >= 650 then -- Galley Captain
+                                                                                    elseif Lv >= 650 then -- Galley Captain
                                                                                         Nonquest = false
                                                                                         Mon = "Galley Captain [Lv. 650]"
                                                                                         NameQuest = "FountainQuest"
@@ -1703,6 +1703,11 @@ local Togle = Page1:Toggle('AutoFarm','',0,false,function(t)
 end
 )
 
+local Toggle = Page1:Toggle('Auto NewWordl','',0,false,function(t)
+    _G.AutoNewWorld = t
+end
+)
+
 local Toggle = Page1T2:Toggle('Auto Melee','',0,false,function(t)
     _G.Melee = t
     while _G.Melee do wait(.1)
@@ -1857,6 +1862,103 @@ game:GetService("RunService").Heartbeat:Connect(function()
         end
     end
 end)
+end)
+spawn(function()
+    while wait() do
+        if _G.AutoNewWorld then
+            local Lv = game.Players.localPlayer.Data.Level.Value
+            if Lv >= 700 and OldWorld and AutoNew   then
+                if Auto_Farm then
+                    _G.AutoFarm = false
+                end
+                if game.ReplicatedStorage.Remotes.CommF_:InvokeServer("DressrosaQuestProgress", "Dressrosa") ~= 0 then
+                    if Workspace.Map.Ice.Door.Transparency == 1 then
+                        if (CFrame.new(1347.7124, 37.3751602, -1325.6488).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude > 250 then
+                            if game.Players.LocalPlayer.Backpack:FindFirstChild("Key") then
+                                local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("Key")
+                                wait(.4)
+                                game.Players.LocalPlayer.Character.Humanoid:EquipTool(tool)
+                            end
+                            DoorNewWorldTween = toTarget(CFrame.new(1347.7124, 37.3751602, -1325.6488).Position,CFrame.new(1347.7124, 37.3751602, -1325.6488))
+                            if (CFrame.new(1347.7124, 37.3751602, -1325.6488).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 250 then
+                                if DoorNewWorldTween then DoorNewWorldTween:Stop() end
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1347.7124, 37.3751602, -1325.6488)
+                            end
+                        elseif game.Workspace.Enemies:FindFirstChild("Ice Admiral [Lv. 700] [Boss]") and game.Workspace.Map.Ice.Door.CanCollide == false and game.Workspace.Map.Ice.Door.Transparency == 1 and (CFrame.new(1347.7124, 37.3751602, -1325.6488).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 350 then
+                            if DoorNewWorldTween then DoorNewWorldTween:Stop() end
+                            CheckBoss = true
+                            for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
+                                if CheckBoss and v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 and v.Name == "Ice Admiral [Lv. 700] [Boss]" then
+                                    repeat wait()
+                                        if (v.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude > 300 then
+                                            Farmtween = toTarget(v.HumanoidRootPart.Position,v.HumanoidRootPart.CFrame)
+                                        elseif (v.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 300 then
+                                            if Farmtween then
+                                                _G.Autofarm = false
+                                            end
+                                            EquipWeapon(SelectToolWeapon)
+                                            Usefastattack = true
+                                            if not game.Players.LocalPlayer.Character:FindFirstChild("HasBuso") then
+                                                local args = {
+                                                    [1] = "Buso"
+                                                }
+                                                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+                                            end
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, 30, 0)
+                                            Click()
+                                        end 
+                                    until not CheckBoss or not v.Parent or v.Humanoid.Health <= 0 or AutoNew == false
+                                    Usefastattack = false
+                                end
+                            end
+                            CheckBoss = false
+                        end 
+                    else
+                        if game.Players.LocalPlayer.Backpack:FindFirstChild("Key") or game.Players.LocalPlayer.Character:FindFirstChild("Key") then
+                            DoorNewWorldTween = toTarget(CFrame.new(1347.7124, 37.3751602, -1325.6488).Position,CFrame.new(1347.7124, 37.3751602, -1325.6488))
+                            if (CFrame.new(1347.7124, 37.3751602, -1325.6488).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 250 then
+                                if DoorNewWorldTween then DoorNewWorldTween:Stop() end
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1347.7124, 37.3751602, -1325.6488)
+                                local args = {
+                                    [1] = "DressrosaQuestProgress",
+                                    [2] = "Detective"
+                                }
+                                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+                                wait(0.5)
+                                if game.Players.LocalPlayer.Backpack:FindFirstChild("Key") then
+                                    local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("Key")
+                                    wait(.4)
+                                    game.Players.LocalPlayer.Character.Humanoid:EquipTool(tool)
+                                end
+                            end
+                        else
+                            AutoNewWorldTween = toTarget(CFrame.new(4849.29883, 5.65138149, 719.611877).Position,CFrame.new(4849.29883, 5.65138149, 719.611877))
+                            if (CFrame.new(4849.29883, 5.65138149, 719.611877).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 250 then
+                                if DoorNewWorldTween then DoorNewWorldTween:Stop() end
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4849.29883, 5.65138149, 719.611877)
+                                local args = {
+                                    [1] = "DressrosaQuestProgress",
+                                    [2] = "Detective"
+                                }
+                                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+                                wait(0.5)
+                                if game.Players.LocalPlayer.Backpack:FindFirstChild("Key") then
+                                    local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("Key")
+                                    wait(.4)
+                                    game.Players.LocalPlayer.Character.Humanoid:EquipTool(tool)
+                                end
+                            end
+                        end
+                    end
+                else
+                    local args = {
+                        [1] = "TravelDressrosa" -- OLD WORLD to NEW WORLD
+                    }
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+                end
+            end
+        end
+    end
 end)
 
 --[[Page1:Button('Slider Update','Update!',0,function()
